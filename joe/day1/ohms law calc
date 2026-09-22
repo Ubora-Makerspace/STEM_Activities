@@ -1,0 +1,9 @@
+Current=input("enter current")
+Voltage=input("enter voltage")
+print(type(Current))
+print(type(Voltage))
+Current=float(Current)
+Voltage=float(Voltage)
+Resistance=Voltage/Current
+print("the resistance is ")
+print(Resistance)

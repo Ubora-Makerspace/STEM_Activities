@@ -1,0 +1,9 @@
+hour=input("enter working hours")
+rate=input("enter pay rate")
+print(type(hour))
+print(type(rate))
+hour=float(hour)
+rate=float(rate)
+pay=hour*rate
+print("the pay is ")
+print(pay)

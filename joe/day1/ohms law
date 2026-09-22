@@ -1,0 +1,37 @@
+choice=input("enter what you want to calculate")
+current=input("enter current")
+print(type(current))
+voltage=input("enter voltage") 
+print(type(voltage))
+resistance=input("enter resistance")
+print(type(resistance))
+if choice==resistance:
+     current=input("enter current")
+     print(type(current))
+     voltage=input("enter voltage") 
+     print(type(voltage))
+     current=float(current)
+     voltage=float(voltage)
+     resistance=voltage/current
+     print("the resistance is ")
+     print(resistance)
+elif choice==current:
+     resistance=input("enter resistance")
+     print(type(resistance))
+     voltage=input("enter voltage") 
+     print(type(voltage))
+     current=float(current)
+     voltage=float(voltage)
+     current=voltage/resistance
+     print("the current is ")
+     print(current)
+if choice== "voltage":
+     resistance=input("enter resistance")
+     print(type(resistance))
+     voltage=input("enter voltage") 
+     print(type(voltage))
+     current=float(current)
+     voltage=float(voltage)
+     voltage=current*resistance
+     print("the voltage is ")
+     print(voltage)

@@ -1,0 +1,9 @@
+x=input("enter a number")
+x=int(x)
+if x<0:
+    print("the number is negative")
+
+elif x%2==0:
+    print("the number is even")
+elif x%2!=0:
+    print("the number is odd")

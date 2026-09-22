@@ -1,0 +1,16 @@
+x=input("enter your score")
+x=float(x)
+if x>=80 and x<=100:
+    print("your grade is A")
+elif x>=70 and x<80:
+    print("your grade is B")
+elif x>=60 and x<70:
+    print("your grade is C") 
+elif x>=50 and x<60:
+    print("your grade is D")
+elif x>=40 and x<50:
+    print("your grade is E")
+elif x>=0 and x<40:
+    print("your grade is F")
+else:
+    print("invalid score")

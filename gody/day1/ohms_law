@@ -1,0 +1,9 @@
+try:
+    v= int(input("inter the voltage: "))
+    i= int(input("inter the voltage: "))
+    r= v/i
+    print ("the resistance is " ,r)
+except ValueError:
+    print("Please enter a valid number")
+
+

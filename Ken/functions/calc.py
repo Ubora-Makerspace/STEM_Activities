@@ -85,7 +85,14 @@ def calculate(op):
         except:
             print("Please enter a valid integer.")
             exit()
-    
+    elif op == "factorial" or op == "!":
+        try: 
+            input_fact = int(input("Enter a number to calculate its factorial: "))
+            num = input_fact
+        except:
+            print("Please enter a valid integer.")
+            exit()
+
     if op == "add":
         add_num = add(num, num2)
         print(f"The result of adding {num} and {num2} is: {add_num}")
@@ -113,7 +120,7 @@ def calculate(op):
     elif op == "root":
         root_num = root(num, num2)
         print(f"The result of the {num2}-th root of {num} is {root_num}")
-    elif op == "factorial":
+    elif op == "factorial" or op == "!":
         fact_num = factorial(num)
         print(f"The result of {num} factorial is {fact_num}")
     elif op == "sine":

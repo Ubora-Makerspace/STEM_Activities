@@ -77,10 +77,11 @@ def calculate(op):
         except:
             print("Please enter a valid integer.")
             exit()
-    elif op == "factorial" or op == "sine" or op == "cosine" or op == "tangent":
-        input_1 = input("Enter a number: ")
+    elif op == "sine" or op == "cosine" or op == "tangent":
+        input_1 = input("Enter an angle in degrees: ")
         try:    
             num = float(input_1)
+            angle = math.degrees(num)   
         except:
             print("Please enter a valid integer.")
             exit()
@@ -116,14 +117,14 @@ def calculate(op):
         fact_num = factorial(num)
         print(f"The result of {num} factorial is {fact_num}")
     elif op == "sine":
-        sin_num = sine(num)
-        print(f"The result of sine of {num} is {sin_num}")
+        sin_num = sine(angle)
+        print(f"The result of sine of {angle} is {sin_num}")
     elif op == "cosine":
-        cos_num = cosine(num)
-        print(f"The result of cosine of {num} is {cos_num}")
+        cos_num = cosine(angle)
+        print(f"The result of cosine of {angle} is {cos_num}")
     elif op == "tangent":
-        tan_num = tangent(num)
-        print(f"The result of tangent of {num} is {tan_num}")
+        tan_num = tangent(angle)
+        print(f"The result of tangent of {angle} is {tan_num}")
     else:
         return "Error: Invalid operation."
     

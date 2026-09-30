@@ -8,7 +8,7 @@ The examples are written for an Arduino Uno.
 
 - Arduino Uno and a USB cable
 - Three LEDs (red, yellow and green if you can)
-- Three 220 Ω resistors (1st digit: red , 2nd Digit: red, Multiplier: black, tolerance: gold)
+- Three 220 Ω resistors (**1st digit**: red , **2nd Digit**: red, **Multiplier**: black, **tolerance**: gold)
 - Breadboard and jumper wires
 
 ## Digital pins: inputs and outputs

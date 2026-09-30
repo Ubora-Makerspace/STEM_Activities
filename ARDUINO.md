@@ -4,7 +4,8 @@ These lessons build from digital inputs to analog sensing and PWM-controlled out
 
 ## Lessons
 
-1. [Buttons and Digital Inputs](<teaching_materials/ARDUINO/lesson2_(buttons).md>) - Read a button, interpret its state, and use it to control an LED.
+1. 
+[Buttons and Digital Inputs](<teaching_materials/ARDUINO/lesson2_(buttons).md>) - Read a button, interpret its state, and use it to control an LED.
 2. [Pulse-Width Modulation](<teaching_materials/ARDUINO/lesson3_(Pulse_Width_Modulation).md>) - Read a potentiometer and use PWM to dim an LED.
 3. [Light Sensors](<teaching_materials/ARDUINO/lesson4_(ldr).md>) - Use an LDR, photodiode, or phototransistor to control an LED.
 

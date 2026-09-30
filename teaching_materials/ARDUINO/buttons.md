@@ -141,7 +141,7 @@ The trick is that you're no longer interested in whether the button is pressed r
 
 There's a catch, though. A real button doesn't switch cleanly. For a few milliseconds when the contacts meet, they bounce and the pin flickers between `HIGH` and `LOW`.
 
-![Contact bounce](images/button_bounce.svg)
+![Contact bounce](circuits/button_bounce.svg)
 
 You can't see that when you're holding a button and watching an LED, but the Arduino runs fast enough to catch every flicker. A single press could look like five, and your toggle would flip back and forth at random. The fix is debouncing: ignore changes until the reading has been stable for a short time.
 
@@ -234,7 +234,7 @@ The `delay(20)` is a quick and dirty debounce. It works fine for a counter, but 
 
 This is where digital inputs meet PWM. The buttons are digital, but the LED gets an analog-style brightness from `analogWrite()`, so the LED has to go on a PWM pin. Pin 9 works well.
 
-![Two buttons and an LED](images/two_button_dimmer.svg)
+![Two buttons and an LED](circuits/two_button_dimmer.svg)
 
 - "UP" button between pin 2 and GND
 - "DOWN" button between pin 3 and GND

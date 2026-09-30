@@ -146,42 +146,35 @@ There's a catch, though. A real button doesn't switch cleanly. For a few millise
 You can't see that when you're holding a button and watching an LED, but the Arduino runs fast enough to catch every flicker. A single press could look like five, and your toggle would flip back and forth at random. The fix is debouncing: ignore changes until the reading has been stable for a short time.
 
 ```cpp
-const int buttonPin = 2;
-const int ledPin = 8;
-
-int ledState = LOW;
-int buttonState = HIGH;          // the debounced, "trusted" state
-int lastReading = HIGH;          // the raw reading from last time round
-unsigned long lastChange = 0;
-const unsigned long debounceMs = 30;
+int ledState = 0;
+int ledPin = 8;
+int buttonPin = 12;
+int buttonNew;
+int buttonOld = 1;
+int dt = 100;
 
 void setup() {
-  pinMode(buttonPin, INPUT_PULLUP);
-  pinMode(ledPin, OUTPUT);
+    pinMode(ledPin, OUTPUT);
+    pinMode(buttonPin, INPUT);
+    Serial.begin(9600);
 }
 
 void loop() {
-  int reading = digitalRead(buttonPin);
+    buttonNew = digitalRead(buttonPin);
 
-  // Any change restarts the timer
-  if (reading != lastReading) {
-    lastChange = millis();
-  }
-
-  // If the reading has held steady long enough, trust it
-  if (millis() - lastChange > debounceMs) {
-    if (reading != buttonState) {
-      buttonState = reading;
-
-      // Only act on the press, not the release
-      if (buttonState == LOW) {
-        ledState = !ledState;
-        digitalWrite(ledPin, ledState);
-      }
+    // Check for the 0 to 1 transition
+    if (buttonOld == 0 && buttonNew == 1) {
+        if (ledState == 0) {
+            digitalWrite(ledPin, HIGH);
+            ledState = 1;
+        } else {
+            digitalWrite(ledPin, LOW);
+            ledState = 0;
+        }
     }
-  }
 
-  lastReading = reading;
+    buttonOld = buttonNew;
+    delay(dt); // Debounce delay
 }
 ```
 

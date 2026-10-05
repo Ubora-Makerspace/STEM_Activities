@@ -247,7 +247,8 @@ void loop() {
 
 The Serial Monitor needs a computer. An LCD lets your project show information on its own: a distance, a temperature, a message. The common 16x2 type has two rows of 16 characters.
 
-### I2C in a minute
+### What is I2C?
+I²C (Inter-Integrated Circuit) is a communication method that lets an Arduino talk to multiple electronic devices using just two wires.
 
 A bare LCD needs about six data pins, which uses up a lot of your Arduino. A cheap backpack board on the back of the LCD fixes this by using **I2C**, a communication method that needs only two signal wires:
 

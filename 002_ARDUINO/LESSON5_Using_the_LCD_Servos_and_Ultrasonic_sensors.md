@@ -1,21 +1,7 @@
 # Servos, ultrasonic sensors and LCDs
 
-In this guide you'll add three new parts to your toolbox: a **servo motor** that turns to an exact angle, an **ultrasonic sensor** that measures distance, and an **LCD** that shows text without needing the Serial Monitor. Each one is a small step from something you've already done, and at the end you'll combine all three into a parking assistant.
-
-It assumes you've worked through the earlier guides, especially LEDs, buttons, and PWM with a potentiometer. The code is written for an Arduino Uno.
-
-## How to use this guide
-
-Don't just read it. Each part has the same rhythm:
-
-1. **Learn** how the part works.
-2. **Build** the circuit from the diagram.
-3. **Predict** what you think the code will do, before you upload it.
-4. **Run** it and compare with your prediction.
-5. **Checkpoint:** answer a few questions. The answers are folded away so you can try first.
-6. **Try it:** change something and see what happens.
-
-If a prediction turns out wrong, that's the most useful moment in the whole guide. Work out why before moving on.
+In this guide you'll add three new parts to your toolbox: a **servo motor** that turns to an exact angle, an **ultrasonic sensor** that measures distance, and an **LCD** that shows text without needing the Serial Monitor.
+The code is written for an Arduino Uno.
 
 ## What you need
 
@@ -42,7 +28,7 @@ That makes servos good for anything that needs to point or move to a position: a
 
 You send the servo a pulse every 20 ms (50 times a second). The **width of the pulse** sets the angle.
 
-![Servo pulse widths](images/servo_pulse.svg)
+![Servo pulse widths](circuits/servo_pulse.svg)
 
 - 1 ms pulse: turn to 0 degrees
 - 1.5 ms pulse: turn to 90 degrees
@@ -105,7 +91,7 @@ There are 181 steps, and each one waits 15 ms, so one direction takes about 181 
 
 You already know how to turn a pot into a number. Now you'll turn that number into an angle.
 
-![Potentiometer and servo wiring](images/servo_pot_wiring.svg)
+![Potentiometer and servo wiring](circuits/servo_pot_wiring.svg)
 
 **Build:** add the potentiometer. The outer legs go to 5 V and GND, and the middle leg (the wiper) goes to A0. The servo stays on pin 9.
 
@@ -183,7 +169,7 @@ It gives the servo time to move, and it stops the Serial Monitor from being floo
 
 The HC-SR04 works like a bat or a ship's sonar. It sends out a short burst of sound at 40 kHz, which is too high for us to hear. The sound hits an object and bounces back, and the sensor listens for the echo. The longer the echo takes, the further away the object is.
 
-![How the HC-SR04 measures distance](images/ultrasonic_timing.svg)
+![How the HC-SR04 measures distance](circuits/ultrasonic_timing.svg)
 
 The Arduino drives this with two pins:
 
@@ -208,7 +194,7 @@ distance (cm) = echo time (µs) x 0.0343 / 2
 
 ### Wiring
 
-![Ultrasonic sensor and three LEDs](images/ultrasonic_wiring.svg)
+![Ultrasonic sensor and three LEDs](circuits/ultrasonic_wiring.svg)
 
 - VCC to 5 V, GND to GND
 - TRIG to pin 7, ECHO to pin 8
@@ -376,7 +362,7 @@ Many devices can share the same two wires, because each one has its own address.
 
 ### Wiring
 
-![I2C LCD wiring](images/lcd_wiring.svg)
+![I2C LCD wiring](circuits/lcd_wiring.svg)
 
 Four wires: GND to GND, VCC to 5 V, SDA to A4, SCL to A5.
 
@@ -534,7 +520,7 @@ Each device has its own address. Every message begins with an address, and only 
 
 Time to combine all three. A distance sensor watches for an object, the LCD shows the distance, the LEDs show green, yellow or red, and a servo lifts a gate when something comes within 20 cm.
 
-![Parking assistant connections](images/parking_assistant.svg)
+![Parking assistant connections](circuits/parking_assistant.svg)
 
 ### Pin plan
 

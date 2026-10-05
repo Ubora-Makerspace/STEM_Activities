@@ -85,7 +85,7 @@ Add the potentiometer. The outer legs go to 5 V and GND, and the middle leg (the
 #include <Servo.h>
 
 Servo myServo;
-const int potPin = A0;
+int potPin = A0;
 
 void setup() {
   myServo.attach(9);
@@ -153,8 +153,8 @@ Don't add the LEDs yet if you want to test the sensor first.
 ### Measure and print the distance
 
 ```cpp
-const int trigPin = 7;
-const int echoPin = 8;
+int trigPin = 7;
+int echoPin = 8;
 
 void setup() {
   pinMode(trigPin, OUTPUT);
@@ -196,11 +196,11 @@ A few things worth noticing:
 Now add the LEDs, so the colour tells you how close something is.
 
 ```cpp
-const int trigPin = 7;
-const int echoPin = 8;
-const int greenPin = 2;
-const int yellowPin = 3;
-const int redPin = 4;
+int trigPin = 7;
+int echoPin = 8;
+int greenPin = 2;
+int yellowPin = 3;
+int redPin = 4;
 
 void setup() {
   pinMode(trigPin, OUTPUT);
@@ -342,7 +342,7 @@ Reuse the pot on A0. This sketch shows the pot value and a percentage.
 #include <LiquidCrystal_I2C.h>
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
-const int potPin = A0;
+int potPin = A0;
 
 void setup() {
   lcd.init();
@@ -398,12 +398,12 @@ Time to combine all three. A distance sensor watches for an object, the LCD show
 #include <LiquidCrystal_I2C.h>
 #include <Servo.h>
 
-const int trigPin = 7;
-const int echoPin = 8;
-const int greenPin = 2;
-const int yellowPin = 3;
-const int redPin = 4;
-const int servoPin = 9;
+int trigPin = 7;
+int echoPin = 8;
+int greenPin = 2;
+int yellowPin = 3;
+int redPin = 4;
+int servoPin = 9;
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 Servo gate;

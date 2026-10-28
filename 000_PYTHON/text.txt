@@ -1,0 +1,50 @@
+Python is a popular programming language.
+Programming helps us solve problems.
+Python is easy to read and understand.
+Loops allow us to repeat instructions.
+A loop can process many items.
+Functions help organise our code.
+Python functions can accept parameters.
+Files allow us to store information.
+Files can be opened in read mode.
+Files can also be opened in write mode.
+Reading a file line by line is useful.
+Reading files helps us analyse data.
+Students are learning Python today.
+Students can practise with simple programs.
+Students should test their code carefully.
+Data can be stored in lists.
+Dictionaries store key-value pairs.
+Lists can contain dictionaries.
+Conditionals help programs make decisions.
+Conditionals use if, elif, and else.
+Errors can occur when reading files.
+Errors should be handled carefully.
+Every program needs proper testing.
+Every student should practise regularly.
+Every file should have a clear purpose.
+Learning Python takes patience.
+Learning by doing improves understanding.
+Loops and functions work well together.
+Loops can count lines in a file.
+Lines can start with different words.
+Count the total lines in the file.
+
+Count how many lines start with the word Python.
+Count how many lines start with the word Students.
+Display every line that starts with Files.
+
+Count how many lines start with the word Every.
+
+Display all lines that start with Learning, ignoring differences in capitalization.
+Count how many lines contain the word Python anywhere in the sentence.
+
+Python too supports file handling and allows users to handle files i.e., to read, write, create, delete and move files, 
+along with many other file handling options, to operate on files. The concept of file handling has stretched over various 
+other languages, but the implementation is either complicated or lengthy, but alike other concepts of Python, this concept 
+here is also easy and short. The main focus of this article will be on the following topics.
+
+Here the mode refers to the Access Mode. Access modes govern the type of operations possible in
+the opened file. It refers to how the file will be used once it's opened. These modes also define
+the location of the File Handle in the file. File handle is like a cursor, which defines
+from where the data has to be read or written in the file. There are 6 access modes in python.

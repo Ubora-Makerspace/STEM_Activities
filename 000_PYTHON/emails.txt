@@ -1,0 +1,117 @@
+From: Ama Mensah <ama.mensah@gmail.com>
+To: festival@gmail.com
+Subject: Robotics Festival Registration
+
+Hello Organizers,
+
+My name is Ama Mensah, and I am 16 years old. I attend Bright Future Academy, and I would love to participate in the school technology festival. I am particularly interested in robotics, although I am still a beginner. My team, Robo Queens, hopes to build a robot that can help people with everyday tasks.
+
+I have used a micro:bit before, but I am still learning Python. I look forward to learning from other participants.
+
+Thank you,
+Ama Mensah
+
+--------------------------------------------------
+
+From: Kofi Boateng <kofi.boateng@gmail.com>
+To: festival@gmail.com
+Subject: Registration for the Technology Festival
+
+Dear Festival Team,
+
+I am Kofi Boateng, a 17-year-old student at Unity Senior High. I have an intermediate level of experience in programming and would like to participate in the festival. I am especially interested in artificial intelligence. My team is called Smart Minds, and we hope to build a system that can recognize objects using a camera.
+
+I have been learning Python for about a year, and I am excited to see what other teams will create.
+
+Best regards,
+Kofi Boateng
+
+--------------------------------------------------
+
+From: Abena Owusu <abena.owusu@gmail.com>
+To: festival@gmail.com
+Subject: Joining the Robotics Challenge
+
+Hello,
+
+My name is Abena Owusu, and I am 15 years old. I study at Bright Future Academy and consider myself a beginner in electronics. I enjoy connecting electronic components and making LEDs blink. My team is called Circuit Breakers, and we hope to learn how to use Arduino and sensors to build useful devices.
+
+I am looking forward to meeting other students who enjoy making things.
+
+Regards,
+Abena Owusu
+
+--------------------------------------------------
+
+From: Yaw Osei <yaw.osei@gmail.com>
+To: festival@gmail.com
+Subject: Festival Registration
+
+Hello Festival Organizers,
+
+I am Yaw Osei, aged 16, and I attend Unity Senior High. I have an advanced level of experience in web development. My team, Code Masters, wants to create a website where students can share their projects and learn from one another.
+
+I have already built two websites using HTML, CSS, and JavaScript. I hope the festival will give us an opportunity to improve our skills and meet other developers.
+
+Cheers,
+Yaw Osei
+
+--------------------------------------------------
+
+From: Efua Darko <efua.darko@gmail.com>
+To: festival@gmail.com
+Subject: Application for the Technology Festival
+
+Dear Team,
+
+My name is Efua Darko. I am 17 years old and attend Green Valley School. I have an intermediate level of experience in game development, which is my favourite area of technology. My team is known as Pixel Stars, and we want to create a simple adventure game with interesting characters and challenges.
+
+I have recently started learning Python and would love to use it to bring my game ideas to life.
+
+Thank you,
+Efua Darko
+
+--------------------------------------------------
+
+From: Kwame Asare <kwame.asare@gmail.com>
+To: festival@gmail.com
+Subject: Sign Me Up!
+
+Hi Team,
+
+I am Kwame Asare, a 14-year-old student at Green Valley School. I am a beginner in robotics and have never built a robot before. However, I am eager to learn about motors, ultrasonic sensors, and how robots detect obstacles. My team is called Robo Rangers.
+
+I hope the festival will give me the opportunity to build my first working robot.
+
+See you soon,
+Kwame Asare
+
+--------------------------------------------------
+
+From: Akosua Frimpong <akosua.frimpong@gmail.com>
+To: festival@gmail.com
+Subject: Technology Festival Participant
+
+Hello Organizers,
+
+My name is Akosua Frimpong, and I am 16 years old. I attend Bright Future Academy and have an advanced level of experience in artificial intelligence. My team, Future Coders, is interested in developing AI tools that can help students with their studies.
+
+I have already worked on a small Python chatbot project and would like to explore how artificial intelligence can make learning more accessible.
+
+Kind regards,
+Akosua Frimpong
+
+--------------------------------------------------
+
+From: Daniel Appiah <daniel.appiah@gmail.com>
+To: festival@gmail.com
+Subject: Late Registration Request
+
+Hello Festival Team,
+
+I am Daniel Appiah, aged 15, and I study at Unity Senior High. I am a beginner in web development and am currently learning HTML and Python. My team is called Digital Explorers, and we hope to create a website that helps students find useful learning resources.
+
+I would be grateful for the opportunity to participate in the festival and learn from more experienced students.
+
+Thank you for your consideration,
+Daniel Appiah

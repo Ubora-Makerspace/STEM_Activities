@@ -37,9 +37,7 @@ Display every line that starts with Files.
 Count how many lines start with the word Every.
 
 Display all lines that start with Learning, ignoring differences in capitalization.
-Count how many lines contain the word Python anywhere in the sentence.
-
-Python too supports file handling and allows users to handle files i.e., to read, write, create, delete and move files, 
+Count how many lines contain the word Python anywhere in the sentence. Python too supports file handling and allows users to handle files i.e., to read, write, create, delete and move files, 
 along with many other file handling options, to operate on files. The concept of file handling has stretched over various 
 other languages, but the implementation is either complicated or lengthy, but alike other concepts of Python, this concept 
 here is also easy and short. The main focus of this article will be on the following topics.

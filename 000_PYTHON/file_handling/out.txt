@@ -1,8 +1,8 @@
 Name: Ama Mensah, Age: 16, School: Bright Future Academy, Interests: Python
-Name: Kofi Boateng, Age: 17-, School: Unity Senior High, Interests: Python
+Name: Kofi Boateng, Age: 17, School: Unity Senior High, Interests: Python
 Name: Abena Owusu, Age: 15, School: Bright Future Academy, Interests: electronics
 Name: Yaw Osei, Age: 16, School: Unity Senior High, Interests: web development
 Name: Efua Darko, Age: 17, School: Green Valley School, Interests: Python
-Name: Kwame Asare, Age: 14-, School: Green Valley School, Interests: robotics
+Name: Kwame Asare, Age: 14, School: Green Valley School, Interests: robotics
 Name: Akosua Frimpong, Age: 16, School: Bright Future Academy, Interests: artificial intelligence
 Name: Daniel Appiah, Age: 15, School: Unity Senior High, Interests: web development

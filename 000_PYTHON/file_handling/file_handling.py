@@ -28,7 +28,7 @@ try:
                 age = age.split(",")[0].strip()
 
             elif "year-old" in line:
-                age = line.split("year-old")[0]
+                age = line.split("-year-old")[0]
                 age = age.split()[-1].strip()
 
             elif "years old" in line:

@@ -3,14 +3,16 @@ FILENAME = "students.txt"
 def load_students(): 
     try: 
         with open(FILENAME, "r") as file: 
-            #open the file 
+            #open the file
+            students = file.read() 
  
-        return students 
+        return list(students)
  
     except FileNotFoundError: 
         # TODO 1: 
         # If the file does not exist, return an empty list. 
         pass 
+        return []
  
  
 # TASK 2: Save student records 
@@ -18,6 +20,7 @@ def save_students(students):
     with open(FILENAME, "w") as file: 
         # TODO 2: 
         # save the students list. 
+        file.write(str(students))
         pass 
  
  
@@ -41,10 +44,15 @@ def add_student(students):
         return 
  
     # TODO 3: 
-    # Create a dictionary with the student's name and score. 
+    # Create a dictionary with the student's name and score.
+    student = {}
+    student[f"{name}"] = score 
     # Add the dictionary to the students list. 
+    students.append(student)
     # Call save_students() to save the updated list. 
+    save_students(students)
     # Print a success message. 
+    print("Successful")
  
  
 # TASK 4: Display all saved students 
@@ -57,6 +65,8 @@ def view_students(students):
  
     # TODO 4: 
     # Use a for loop to visit every student in the list. 
+    for student in list(students):
+        print(students)
     # Print each student's name and score. 
     # Remember that each student is a dictionary. 
  
@@ -69,13 +79,22 @@ def show_average(students):
  
     total = 0 
  
-    # TODO 5: 
+    # TODO 5:
+    for student in students:
+        # student = dict(student)
+        print(student)
+        # for key, value in student.items():
+        #     total += value
+            
     # Use a for loop to add each student's score to total. 
+    
  
     # TODO 6: 
+    average = total/ len(students)
     # Calculate the average by dividing total 
     # by the number of students. 
     # Print the average rounded to 2 decimal places. 
+    print(f"Average score: {average:.2f}")
  
  
 # TASK 6: Create the main menu 
@@ -92,11 +111,22 @@ def main():
         choice = input("Choose an option: ") 
  
         # TODO 7: 
-        # If choice is "1", call add_student(students). 
-        # If choice is "2", call view_students(students). 
-        # If choice is "3", call show_average(students). 
-        # If choice is "4", print a goodbye message and break. 
+        # If choice is "1", call add_student(students).
+        if choice == '1':
+            add_student(students) 
+        # If choice is "2", call view_students(students).
+        elif choice == '2':
+            view_students(students) 
+        # If choice is "3", call show_average(students).
+        elif choice == '3':
+            show_average(students) 
+        # If choice is "4", print a goodbye message and break.
+        elif choice == '4':
+            print("Goodbye")
+            break 
         # Otherwise, print an invalid option message. 
+        else:
+            print("Invalid Option") 
  
  
 if __name__ == "__main__": 

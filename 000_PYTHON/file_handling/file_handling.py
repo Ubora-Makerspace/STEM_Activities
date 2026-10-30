@@ -1,4 +1,4 @@
-fname = "emails.txt" # comment this line if you want user input for the file name
+fname = "emails.txt" # comment this if you want user input for the file name
 # fname = input("Enter the file name: ") # for user input, uncomment this line
 newf = "out.txt"
 

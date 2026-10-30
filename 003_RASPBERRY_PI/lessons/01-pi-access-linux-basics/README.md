@@ -116,7 +116,7 @@ Practise one full cycle: shut down, unplug, plug in, log in again.
    git config --global user.name "Your Name"
    git config --global user.email "you@example.com"
    ```
-2. Clone the repository. Use the URL your facilitator gave you:
+2. Clone the repository. Use the starter code url:
 
    ```
    git clone <repository-url> project
